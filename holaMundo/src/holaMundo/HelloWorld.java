@@ -3,8 +3,12 @@ package holaMundo;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.printf("Hola,mundo");
-
+		String palabra = "Hola";
+		if (palabra.equals("Hola")) {
+			System.out.println("La variable vale" + " " + palabra);
+		} else {
+			System.out.println("La variable no vale hola");
+		}
 	}
 
 }
