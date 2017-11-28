@@ -1,4 +1,4 @@
-package holaMundo;
+package ej2;
 
 public class Car {
 
