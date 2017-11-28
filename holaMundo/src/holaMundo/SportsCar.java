@@ -9,7 +9,7 @@ public class SportsCar extends Car {
 		super(brand, type, speed);
 		this.trunkCapacity = trunkCapacity;
 		this.maxEngine = maxEngine;
-		}
+	}
 	
 	public int getCapacity() {
 		return this.trunkCapacity;
