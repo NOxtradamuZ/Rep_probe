@@ -1,11 +1,11 @@
-package holaMundo;
+package basePruebas;
 
-public class AllTerrain extends Car {
+public class FamilyCar extends Car {
 	
 	private int trunkCapacity;
 	private int maxEngine;
 	
-	public AllTerrain(String brand, String type, float speed, int trunkCapacity, int maxEngine) {
+	public FamilyCar(String brand, String type, float speed, int trunkCapacity, int maxEngine) {
 		super(brand, type, speed);
 		this.trunkCapacity = trunkCapacity;
 		this.maxEngine = maxEngine;
@@ -21,11 +21,11 @@ public class AllTerrain extends Car {
 	
 	public void run() {
 		super.run();
-		System.out.println("Go Monster Truck");
+		System.out.println("Family road to the school");
 	}
 	
 	public void stop() {
 		super.stop();
-		System.out.println("RIP your Monster Truck");
+		System.out.println("F**ck the family, buy a Ferrari");
 	}
 }

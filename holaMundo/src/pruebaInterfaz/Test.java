@@ -1,4 +1,5 @@
-package holaMundo;
+
+package pruebaInterfaz;
 
 public class Test {
 
@@ -41,6 +42,10 @@ public class Test {
 				car4,
 				car5
 				};
+		
+		car1.forward();
+		car2.stop();
+		car3.start();
 		
 		Car veryFastCar = compareCarSpeeds(cars);
 		

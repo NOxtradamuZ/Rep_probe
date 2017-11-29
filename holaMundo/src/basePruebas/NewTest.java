@@ -1,6 +1,6 @@
-package ej2;
+package basePruebas;
 
-public class Test1 {
+public class NewTest {
 	
 	public static void main(String[] args) {
 		

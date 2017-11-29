@@ -1,4 +1,4 @@
-package holaMundo;
+package basePruebas;
 
 public class Car {
 
@@ -45,7 +45,7 @@ public class Car {
 	
 	//public void move() {
 		//this.getEngine.moveEngine();
-		//System.out.println("Move");  //Se borra esta parte, porque no hace falta
+		//System.out.println("CarMover");  //Se borra esta parte, porque no hace falta
 	//}
 	
 	public void stop() {

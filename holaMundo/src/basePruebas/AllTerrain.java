@@ -1,4 +1,4 @@
-package ej2;
+package basePruebas;
 
 public class AllTerrain extends Car {
 	

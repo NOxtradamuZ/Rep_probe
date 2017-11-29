@@ -1,4 +1,4 @@
-package holaMundo;
+package basePruebas;
 
 public class LetterCounter {
 

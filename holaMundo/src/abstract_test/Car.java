@@ -1,6 +1,6 @@
-package ej2;
+package abstract_test;
 
-public class Car {
+public class Car extends Vehicle{
     private String brand;
     private String type;
     private float speed;
@@ -30,7 +30,8 @@ public class Car {
         System.out.println("Start in Car class");
     }
 
-    public void stop() {
-        System.out.println();
+    @Override
+    public void forward() {
+        System.out.println("Forward in the Car Class");
     }
 }

@@ -1,45 +1,47 @@
-package holaMundo;
+package basePruebas;
 
-public class NewTest {
-	
+public class Test {
+
 	public static void main(String[] args) {
 		
-		Car car1 = new SportsCar (
+		Car car1 = new Car (
+				"BMW",
+				"i8",
+				250
+				);
+		
+		Car car2 = new Car (
+				"Audi",
+				"A8",
+				236
+				);
+		
+		Car car3 = new Car (
+				"Ferrari",
+				"Testarossa",
+				329
+				);
+		
+		Car car4 = new Car (
+				"Lamborghini",
+				"Veneno",
+				35
+				);
+		
+		Car car5 = new Car (
 				"Bugatti",
 				"Chiron",
-				450,
-				0,
-				1500
+				450
 				);
 		
-		Car car2 = new FamilyCar (
-				"Peugeot",
-				"308",
-				193,
-				166,
-				105
-				);
-		
-		Car car3 = new AllTerrain (
-				"Mitsubishi",
-				"Pajero",
-				180,
-				663,
-				247
-				);
-		
-		//Test Methods;
-		car1.run();
-		car2.stop();
-		car3.run();
-		
-		//Create an array of the different cars
 		Car[] cars = {
 				car1,
 				car2,
 				car3,
+				car4,
+				car5
 				};
-				
+		
 		Car veryFastCar = compareCarSpeeds(cars);
 		
 		System.out.println("The fastest car is "
@@ -71,3 +73,7 @@ public class NewTest {
 	}
 	
 }
+
+		
+		
+

@@ -1,15 +1,15 @@
-package ej2;
+package basePruebas;
 
-public class FamilyCar extends Car {
+public class SportsCar extends Car {
 	
 	private int trunkCapacity;
 	private int maxEngine;
 	
-	public FamilyCar(String brand, String type, float speed, int trunkCapacity, int maxEngine) {
+	public SportsCar(String brand, String type, float speed, int trunkCapacity, int maxEngine) {
 		super(brand, type, speed);
 		this.trunkCapacity = trunkCapacity;
 		this.maxEngine = maxEngine;
-		}
+	}
 	
 	public int getCapacity() {
 		return this.trunkCapacity;
@@ -17,15 +17,15 @@ public class FamilyCar extends Car {
 	
 	public int getEngine() {
 		return this.maxEngine;
-	}
+	}		
 	
 	public void run() {
 		super.run();
-		System.out.println("Family road to the school");
+		System.out.println("Feel the power of the Sport Car");
 	}
 	
 	public void stop() {
 		super.stop();
-		System.out.println("F**ck the family, buy a Ferrari");
+		System.out.println("Why in the hell you choose to stop this monster");
 	}
 }
